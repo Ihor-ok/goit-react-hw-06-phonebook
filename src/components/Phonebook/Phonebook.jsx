@@ -4,6 +4,7 @@ import css from './Phonebook.module.css'
 
 
 
+
 const schema = yup.object().shape({
     name: yup.string().required(),
     number: yup.number().typeError('enter a number').required(),
@@ -17,7 +18,7 @@ const initialValues = {
 
 
 
-function Phonebook({handleSubmit,}) { 
+function Phonebook({handleSubmit}) { 
        
         return (
             <>
