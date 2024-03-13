@@ -8,8 +8,6 @@ import Filter from './Filter/Filter'
 import css from './App.module.css'
 import { filterChange } from 'components/redux/filterSlice'
 
-console.log(filterChange);
-console.log(addContact);
 
 
 // const LS_KEY = 'contacts'
